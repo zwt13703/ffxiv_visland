@@ -2,6 +2,8 @@ name: Build & Publish to Dynamis
 
 on:
   push:
+    branches:
+      - master  # 触发工作流的分支
     tags:
       - "v*.*.*.*"
 
