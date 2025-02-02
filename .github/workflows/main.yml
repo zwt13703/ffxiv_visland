@@ -46,3 +46,4 @@ jobs:
           dalamud_version: "11"
         env:
           PUBLISHER_KEY: ${{ secrets.PUBLISHER_KEY }}
+
